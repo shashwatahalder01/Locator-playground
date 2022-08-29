@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+body {
+  /* font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* display: flex; */
+  align-items: center;
+}
+
+div {
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 8px;
+  padding: 5px;
+  width: 50%;
+  position: relative;
+  margin: 2% auto;
+}
+
+h1 {
+  background-color: SlateBlue;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  font-size: 3.75em;
+}
+
+h3 {
+  /* position: relative;
+  margin-top: 3em;
+  padding-top: 3em;
+  color: #666;
+  font-size: 1.75em;
+  text-align: center;
+  text-transform: uppercase; */
+  margin-left: 30px;
+  margin: 4%;
+
+}
+
+
+button {
+  /* background-color: #4CAF50; Green */
+  /* background-color: #7066e0;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 2px;
+  left: 50%; */
+
+  padding: 0.9em 2.1875em;
+  border: 0;
+  border-radius: 0.1875em;
+  background-color: #7066e0;
+  box-shadow: none;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 500;
+  white-space: nowrap;
+
+  display: block;
+  margin: 15px auto;
+
+}
+
+button:hover {
+  background-color: #6459dd;
+  /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidebar {
+  padding: 0 !important;
+}
+
+.sidebar .swal2-modal {
+  background: #f2f4f6;
+}
+
+.sidebar .swal2-html-container {
+  margin: 0 2em 0 0;
+}
+
+.sidebar .swal2-footer {
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.show-example-btn {
+  padding: 0.9em 2.1875em;
+  border: 0;
+  border-radius: 0.1875em;
+  background-color: #7066e0;
+  box-shadow: none;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.show-example-btn:hover {
+  background-color: #6459dd;
+}
+.show-example-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(115, 103, 240, 0.5);
+}
+.show-example-btn::-moz-focus-inner {
+  border: 0;
+}
+.show-example-btn:active {
+  background-color: #483cd7;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Locator Playground</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+
+</head>
+
+<body>
+
+    <h1>Locator Playground</h1>
+
+    <div id="abc">
+        <h3>This element can be selected by Unique ID</h3>
+        <button class="show-example-btn" onclick="sweetalert()">Unique ID</button>
+    </div>
+
+    <div>
+        <h3>This element can be selected by Unique Class</h3>
+        <button class="class1" onclick="sweetalert()">Unique Class</button>
+    </div>
+
+    <div>
+        <h3>This elements can be selected by class</h3>
+        <button class="class2" onclick="sweetalert()">Element 1</button>
+        <button class="class2" onclick="sweetalert()">Element 2</button>
+    </div>
+
+    <div>
+        <h3>This element can be selected by Unique ID</h3>
+        <button name="name1" onclick="sweetalert()">Unique name</button>
+    </div>
+
+    <div>
+        <h3>This element's can be selected by Unique combination of attributes</h3>
+        <button name="a" id="a" onclick="sweetalert()">Unique combination of attributes : name=a id=a</button>
+
+        <button name="a" id="b" onclick="sweetalert()">Unique combination of attributes : name=a id=b</button>
+
+        <button name="b" id="a" onclick="sweetalert()">Unique combination of attributes : name=b id=a</button>
+
+        <button name="b" id="b" onclick="sweetalert()">Unique combination of attributes : name=b id=b</button>
+    </div>
+
+    <div>
+        <h3>This element can be selected by single class</h3>
+        <button class="apple" onclick="sweetalert()">class = 'apple' </button>
+
+        <h3>This element can be selected by multiple class</h3>
+        <button class="apple orange" onclick="sweetalert()">class = 'apple orange' </button>
+    </div>
+
+
+    <div>
+        <h3>Example of identifying elements with help of parent</h3>
+        <p id="div1">
+            <button id="label" onclick="sweetalert()">label1</button>
+        </p>
+        <p id="div2">
+            <button id="label" onclick="sweetalert()">label2</button>
+        </p>
+        <p id="div3">
+            <button id="label" onclick="sweetalert()">label3</button>
+        </p>
+    </div>
+
+
+    <div>
+        <h3>Index</h3>
+        <div id="Index">
+            <b>1</b>
+            <b>2</b>
+            <b>3</b>
+            <b>4</b>
+            <b>5</b>
+            <b>6</b>
+            <b>7</b>
+            <b>8</b>
+            <b>9</b>
+            <b>10</b>
+        </div>
+    </div>
+
+
+        <div>
+            <h3>only-of-type</h3>
+            <div class="only-of-type">
+                <b>b1</b>
+                <b>b2</b>
+                <b>b3</b>
+                <label>l4</label>
+            </div>
+            <div class="only-of-type">
+                <b>b1</b>
+                <label>l2</label>
+                <label>l3</label>
+                <label>l3</label>
+            </div>
+            <div class="only-of-type">
+                <b>b1</b>
+                <b>b2</b>
+                <label>l3</label>
+                <label>l3</label>
+            </div>
+        </div>
+
+
+        <div>
+            <h3>Difference between first child and first type</h3>
+            <div id="divType">
+                <div>
+                    <b>1</b>
+                    <b>2</b>
+                    <b>3</b>
+                </div>
+                <div>
+                    <b>1</b>
+                    <b>2</b>
+                    <b>3</b>
+                </div>
+                <div>
+                    <b>1</b>
+                    <b>2</b>
+                    <b>3</b>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div>
+            <h3>Xpath AXES</h3>
+            <form id="body">Xpath AXES - Inspect Me
+                <div id='A'>
+                    <div id='B1'>
+                        <div id='X1'></div>
+                        <div id='X2'>
+                            <div id='O1'>
+                                <div id='Q1'>
+                                    <div id='R1'></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id='X3'></div>
+                    </div>
+
+                    <div id='B2'>
+                        <div id='Y1'></div>
+                        <div id='Y2'>
+                            <div id='M1'>
+                                <div id='N1'></div>
+                                <div id='N2'></div>
+                            </div>
+                            <div id='M2'>
+                                <div id='L1'></div>
+                            </div>
+                        </div>
+                        <div id='Y3'></div>
+                    </div>
+
+                    <div id='B3'>
+                        <div id='Z1'></div>
+                        <div id='Z2'></div>
+                    </div>
+                    <div id='B4'></div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
